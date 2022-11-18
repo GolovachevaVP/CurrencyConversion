@@ -1,11 +1,10 @@
-package ru.liga.springtest.shell;
+package com.example.currencyconversion.shell;
 
+import com.example.currencyconversion.service.CurrencyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
-
 import org.springframework.shell.standard.ShellOption;
-import ru.liga.springtest.service.CurrencyService;
 
 import java.math.BigDecimal;
 

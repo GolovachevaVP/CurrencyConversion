@@ -1,11 +1,11 @@
-package ru.liga.springtest.service;
+package com.example.currencyconversion.service;
 
 
+import com.example.currencyconversion.dto.CurrencyCodesDto;
+import com.example.currencyconversion.dto.CurrencyConversionDto;
+import com.example.currencyconversion.repository.CurrencyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.liga.springtest.dto.CurrencyCodesDto;
-import ru.liga.springtest.dto.CurrencyConversionDto;
-import ru.liga.springtest.repository.CurrencyRepository;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

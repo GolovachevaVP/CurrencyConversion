@@ -1,12 +1,10 @@
-package ru.liga.springtest.repository;
+package com.example.currencyconversion.repository;
 
+import com.example.currencyconversion.dto.CurrencyCodesDto;
+import com.example.currencyconversion.dto.CurrencyConversionDto;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
-import ru.liga.springtest.dto.CurrencyCodesDto;
-import ru.liga.springtest.dto.CurrencyConversionDto;
 
 import java.util.HashMap;
 import java.util.List;
